@@ -23,5 +23,6 @@ public class Post {
 
     private String thumbnail;
 
+    @Enumerated(EnumType.STRING)
     private Genre genre;
 }
